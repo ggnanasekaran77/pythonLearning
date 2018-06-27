@@ -5,8 +5,8 @@ print("Hello World")
 def digonalsumdiff (a):
     for i in range(n):
         for j in range(n):
-            print(a[i][j],sep=' '),
-    print()
+            print(a[i][j],end=' ')
+        print()
 
 if __name__ == '__main__':
     #n = int(input())
